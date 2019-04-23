@@ -6,13 +6,13 @@
   "scripts": {
     "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KDavies2020/levelUp.git"
   },
-  "author": "",
+  "author": "Kyle Davies",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KDavies2020/levelUp/issues"
